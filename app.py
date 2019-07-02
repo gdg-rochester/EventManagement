@@ -11,7 +11,7 @@ def hello_world():
 
 
 @app.route('/send_email')
-def hello_world():
+def send_email():
     email_util.send()
     return 'Mail Sent!'
 
