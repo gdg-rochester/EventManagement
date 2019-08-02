@@ -3,7 +3,8 @@ import ssl
 from email.mime.text import MIMEText
 
 
-def send():
+def send(data):
+    print(data)
     port = 465  # For SSL
     password = "Bakchod!@#$56"
 
@@ -25,7 +26,7 @@ def send():
                        <p>{0}</p>
                      </body>
                    </html>
-                   '''.format(message)
+                   '''.format(data['message'])
 
         msgTo = ""
         text_receivers = ['neelkirit2@gmail.com'
