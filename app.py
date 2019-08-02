@@ -2,11 +2,13 @@ import json
 
 from flask import Flask, request
 from flask import jsonify
+from flask_cors import CORS
 
 import devfest_util
 import email_util
 
 app = Flask(__name__)
+CORS(app)
 
 
 @app.route('/')
