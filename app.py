@@ -20,7 +20,7 @@ def hello_world():
 def send_email():
     data = request.data
     data = json.loads(data)
-    print(data)
+    # print(data)
     email_util.send(data)
     return 'Mail Sent!'
 
