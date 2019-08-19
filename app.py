@@ -30,5 +30,10 @@ def get_attendees():
     return jsonify(devfest_util.get_attendees())
 
 
+@app.route('/get_attendees_2', methods=['GET'])
+def get_attendees_2():
+    return jsonify(devfest_util.get_attendees_2())
+
+
 if __name__ == '__main__':
     app.run()
