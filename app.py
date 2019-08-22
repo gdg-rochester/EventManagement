@@ -10,7 +10,7 @@ import email_util
 app = Flask(__name__)
 CORS(app)
 
-
+# Default
 @app.route('/')
 def hello_world():
     return 'Hello World!'
