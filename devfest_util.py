@@ -1,6 +1,5 @@
 import requests
 
-
 def get_attendees(start_index, end_index):
     url = 'https://www.explara.com/api/e/attendee-list'
     data = {'eventId': 'EBEHBIFF', 'fromRecord': start_index, 'toRecord': end_index}
