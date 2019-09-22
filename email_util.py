@@ -6,7 +6,7 @@ from email.mime.text import MIMEText
 def send(data):
     print(data)
     port = 465  # For SSL
-    password = "Bakchod!@#$56"
+    password = "INSERT_PWD_HERE"
 
     # Create a secure SSL context
     context = ssl.create_default_context()
