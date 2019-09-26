@@ -16,7 +16,7 @@ def send(data):
         receiver_email = "contact@gdgrochester.com"
        
 
-        bcc = ["neelkirit2@gmail.com", "narkhedesarang@gmail.com"]
+        bcc = ["xx", "xx"]
 
         cont = '''{0}'''.format(data["message"])
         msgTo = ""
